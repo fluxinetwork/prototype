@@ -1,6 +1,6 @@
 # FLUXI PROTO
 
-Simple frontend framework to help Interactive Designers to start coding quickly.
+Simple frontend framework to help Ux & Interactive Designers to start coding quickly.
 
 ### Framework Add on:
 - Outer grid Margin added to Neat.
