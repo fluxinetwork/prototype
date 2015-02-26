@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+// Mobile code first!
+.info {
+  height:14em;
+  background-color: $lightgrey2;
+  color:$black;
+  font-size:$bodyfontsize;
+  padding:2em;
+  margin-bottom:$small-margin-bottom;
+}
+
+// Get bigger...
+@include media($middle) {
+	.info {
+		@include span-columns(8);
+	}
+}
+
+

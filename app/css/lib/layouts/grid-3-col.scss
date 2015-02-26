@@ -1,0 +1,36 @@
+@charset "UTF-8";
+// Add the class g-3-col to create a special 3 colums layout
+
+// Mobile code first!
+.g-3-col:nth-child(3) {
+	display:none;
+}
+
+// then make it bigger!
+@include media($middle) {
+
+	.g-3-col {
+		@include span-columns(6);
+		@include omega(2n);
+	}
+}
+
+// and bigger!
+@include media($large) {
+
+	.g-3-col {
+		@include span-columns(4);
+		// Shit! the mobile first code has an impact here: we need to cancel the omega mixing to clean up the margin-right!
+		@include omega-reset(2n);
+	}
+
+	.g-3-col:nth-child(3) {
+		// Shit! the mobile first code has an impact here as well, we need to use !important
+		// Advices on how we should write Media queries:
+		// http://simurai.com/blog/2012/08/29/media-query-splitting/
+		// https://github.com/thoughtbot/neat
+		display:block !important;
+	}
+}
+
+

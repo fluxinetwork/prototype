@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+// Mobile code first!
+.side-bar {
+  height:14em;
+  background-color: $lightgrey2;
+  color:$black;
+  opacity:0.8;
+  font-size:$bodyfontsize;
+  padding:2em;
+  margin-bottom:$small-margin-bottom;
+}
+
+// Get bigger...
+@include media($middle) {
+	.side-bar {
+		@include span-columns(4);
+	}
+}
+
+
+

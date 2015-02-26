@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+// GRID SETTINGS 
+// The grid variables must be declated before the Neat file imports
+@import "lib/vendors/neat/neat-helpers";
+
+// Turn on/off the visual grid, simply change to: false
+$visual-grid:               true;
+$visual-grid-index:         front;
+$visual-grid-opacity:       0.1;
+$visual-grid-color:         #3273F4;
+
+// Change the parameter of your grid to match the one in your image editor.
+$column:                    5em;
+$gutter:                    4em;
+$grid-columns:              12;
+$outergutter:               5;
+$max-width:                 130em;
+
+// All breakpoints definitions here, bourbon.io framework
+// Advices on how we should write Media queries:
+// http://simurai.com/blog/2012/08/29/media-query-splitting/
+// https://github.com/thoughtbot/neat
+$small          	: new-breakpoint( min-width 450px);
+$middle          	: new-breakpoint( min-width 773px);
+$large          	: new-breakpoint( min-width 1100px);

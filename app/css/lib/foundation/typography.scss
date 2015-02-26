@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+//Typography
+$bodyfont:'Avantgarde Med', Arial, sans-serif;
+$bodylineheight:1.5em;
+$bodyfontsize:1.4em;
+$secondaryfont:Verdana, sans-serif;
+
+@font-face {
+  font-family: 'Avantgarde Med';
+  src: url('fonts/avantgarde/Avantgarde-Med.eot');
+  src: url('fonts/avantgarde/Avantgarde-Med.eot?#iefix') format('embedded-opentype'),
+       url('fonts/avantgarde/Avantgarde-Med.woff') format('woff'),
+       url('fonts/avantgarde/Avantgarde-Med.ttf') format('truetype'),
+       url('fonts/avantgarde/Avantgarde-Med.svg#AvantgardeMed') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+//Base styles
+.h1 {
+
+}
+
+.h2 {
+
+}
+
+.h3 {
+ 
+}
+
+body {
+
+}

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+// Add the class g-5-col to create a custom 5 colums layout
+
+// Mobile code first
+
+// then make it bigger (tablet-ish)
+@include media($middle) {
+
+	.g-5-col {
+		// This is a custome mixin to create any grid, for more details go to the folder app/css/foundation/2-custom-mixins.scss
+		@include custom-grid(3,5);
+	}
+}
+

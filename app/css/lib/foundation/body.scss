@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* Global Css Rules ----------------------------------------------------
+    all the simplest layout patterns here
+*/
+
+html {
+    font-size: 62.5%; /* font size set to 10px = 1em */
+}
+
+body {
+    
+    @include nice-font-redenring;
+}
