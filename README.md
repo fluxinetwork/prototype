@@ -1,4 +1,4 @@
-# FlUXI FRAMEWORK
+# FLUXI FRAMEWORK
 
 Simple frontend framework to help Interactive Designers to start coding quickly.
 
