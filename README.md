@@ -16,7 +16,5 @@ http://julien-pecorino.com/projects/dry-framework/
 - Drag the folder into Codekit
 - See the page framework by clicking 'Server' (top right in Codekit) then click any url, you are ready to start.
 
-More Explanations will added very soon.
-
 
 
