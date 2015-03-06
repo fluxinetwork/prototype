@@ -1,4 +1,4 @@
-# FLUXI PROTO
+# FLUXI PROTO (in shape)
 
 Simple frontend framework to help Ux & Interactive Designers to start coding quickly.
 
@@ -11,9 +11,11 @@ check it out:
 http://julien-pecorino.com/projects/dry-framework/
 
 ### How to use:
-- Download the framework
-- Download Codekit and install
-- Drag the folder into Codekit
+- Download the folder framework from Github
+https://github.com/fluxinetwork/prototype/archive/master.zip
+- Download the Codekit app and install
+https://incident57.com/codekit/
+- Drag the folder framework into Codekit
 - See the page framework by clicking 'Server' (top right in Codekit) then click any url, you are ready to start.
 
 
